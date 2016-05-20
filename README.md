@@ -11,4 +11,6 @@
 8. android杀掉进程后，<90S,再创建直播，在直播间的观众可以正常恢复声音/画面；
 9. android杀掉进程后，>90S，后台自动关闭房间
 
-随心播的Spear的配置如下
+随心播的Spear的配置参见图片
+iOS：  https://raw.githubusercontent.com/zhaoyang21cn/Suixinbo/master/QQ%E6%88%AA%E5%9B%BE20160520170339.jpg
+Android：  https://raw.githubusercontent.com/zhaoyang21cn/Suixinbo/master/QQ%E6%88%AA%E5%9B%BE20160520170326.jpg
