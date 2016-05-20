@@ -1,6 +1,6 @@
 # 随心播
-新版本随心播经过重构，完善了功能，处理了大量的异常情况，请开发者在编码过程中注意
-异常情况包括如下：
+新版本随心播经过重构，完善了功能，处理了大量的异常情况，请开发者在编码过程中注意，异常情况包括如下：
+
 1. 退后台恢复 ：android后台进程不被杀掉，可正常恢复，画面/声音正常；
 
 2. 闹钟 ：android直播过程中有闹钟，关闭闹钟返回直播，观众和主播画面/声音正常
@@ -20,6 +20,6 @@
 9. android杀掉进程后，>90S，后台自动关闭房间
 
 
-随心播的Spear的配置参见图片
+随心播的Spear的配置参见图片（因随心播的参数配置较高，因此对主播上行带宽有要求）
 iOS：  https://raw.githubusercontent.com/zhaoyang21cn/Suixinbo/master/QQ%E6%88%AA%E5%9B%BE20160520170339.jpg
 Android：  https://raw.githubusercontent.com/zhaoyang21cn/Suixinbo/master/QQ%E6%88%AA%E5%9B%BE20160520170326.jpg
