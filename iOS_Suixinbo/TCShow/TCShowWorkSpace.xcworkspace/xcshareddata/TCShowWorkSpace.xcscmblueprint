@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5F158B266B172C4764319BE9C5052B36BE67A941",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5F158B266B172C4764319BE9C5052B36BE67A941" : 0,
+    "401C3F775915BC415A759BA53F533AA6B8E0AB1B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B8F00435-322B-41A6-BF2F-01DE0CCA2E2E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5F158B266B172C4764319BE9C5052B36BE67A941" : "iOS_Suixinbo\/",
+    "401C3F775915BC415A759BA53F533AA6B8E0AB1B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TCShowWorkSpace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TCShow\/TCShowWorkSpace.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhaoyang21cn\/Suixinbo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "401C3F775915BC415A759BA53F533AA6B8E0AB1B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhaoyang21cn\/iOS_Suixinbo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F158B266B172C4764319BE9C5052B36BE67A941"
+    }
+  ]
+}
