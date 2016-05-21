@@ -382,9 +382,11 @@ public class EnterLiveHelper extends Presenter {
 
     /**
      * 进入AV房间
+     *
      * @param roomNum
      */
-    private void EnterAVRoom(int roomNum) {
+    private void
+    EnterAVRoom(int roomNum) {
         SxbLog.i(TAG, "createlive joinLiveRoom enterAVRoom " + roomNum);
         AVContext avContext = QavsdkControl.getInstance().getAVContext();
         byte[] authBuffer = null;//权限位加密串；TODO：请业务侧填上自己的加密串
@@ -399,12 +401,13 @@ public class EnterLiveHelper extends Presenter {
         enterRoomParam.autoCreateRoom = true;
         enterRoomParam.videoRecvMode = AVRoom.VIDEO_RECV_MODE_SEMI_AUTO_RECV_CAMERA_VIDEO;
 
-        if (avContext != null)
-            avContext.enterRoom(AVRoom.AV_ROOM_MULTI, mRoomDelegate, enterRoomParam);
+        if (avContext != null) {
+//            avContext.enterRoom(AVRoom.AV_ROOM_MULTI, mRoomDelegate, enterRoomParam);
 //        AVRoom.EnterRoomParam enterRoomParam = new AVRoomMulti.EnterRoomParam(roomNum, AvConstants.auth_bits, authBuffer, "", AvConstants.AUDIO_VOICE_CHAT_MODE, true);
-        // create room
-        int ret = avContext.enterRoom(AVRoom.AV_ROOM_MULTI, mRoomDelegate, enterRoomParam);
-        SxbLog.i(TAG, "EnterAVRoom " + ret);
+            // create room
+            int ret = avContext.enterRoom(AVRoom.AV_ROOM_MULTI, mRoomDelegate, enterRoomParam);
+            SxbLog.i(TAG, "EnterAVRoom " + ret);
+        }
     }
 
 
